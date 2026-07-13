@@ -96,14 +96,7 @@ public class Zombie : MonoBehaviour
         GetComponent<Animator>().SetBool("IsEat", false);
         
         // 显式设置Hp为0，确保Animator收到死亡状态
-        // （因为OnTriggerEnter2D和Update执行顺序不确定，保险起见手动设置）
         GetComponent<Animator>().SetFloat("Hp", 0f);
-        
-        // 如果你的Animator用的是IsDead布尔参数，取消下面这行注释
-        // GetComponent<Animator>().SetBool("IsDead", true);
-        
-        // 如果你的Animator用的是Die触发器参数，取消下面这行注释
-        // GetComponent<Animator>().SetTrigger("Die");
         
         // 禁用碰撞体，防止死亡过程中继续被子弹击中导致重复触发
         GetComponent<Collider2D>().enabled = false;
