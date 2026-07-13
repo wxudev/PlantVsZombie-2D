@@ -20,9 +20,10 @@
 -  2D物理碰撞检测，豌豆子弹伤害判定
 
 ## 演示视频
-【植物大战僵尸录制】https://www.bilibili.com/video/BV1xFM761E6K?vd_source=1edea17dae3abc0d0e87752abb5951d1
+【植物大战僵尸（unity复刻版）】https://www.bilibili.com/video/BV1qnNy6NEUT?vd_source=1edea17dae3abc0d0e87752abb5951d1
 
 ## 项目截图
-<img width="850" height="847" alt="屏幕截图 2026-07-09 140537" src="https://github.com/user-attachments/assets/d8c92d4a-e47e-4461-b142-2f19c7e47644" />
-<img width="858" height="852" alt="屏幕截图 2026-07-09 140457" src="https://github.com/user-attachments/assets/eac96367-f5c1-4203-9a28-4aaef4f5638e" />
-<img width="846" height="850" alt="屏幕截图 2026-07-09 140521" src="https://github.com/user-attachments/assets/77069ece-4580-4641-837a-f8ae992d47ad" />
+<img width="1811" height="1060" alt="屏幕截图 2026-07-13 100945" src="https://github.com/user-attachments/assets/99622596-7612-4c70-9bc6-fe95d6e35cc2" />
+<img width="1811" height="1059" alt="屏幕截图 2026-07-13 100955" src="https://github.com/user-attachments/assets/c754c89c-a4b6-46a9-8cf7-f55cf1d691e6" />
+<img width="1818" height="1064" alt="屏幕截图 2026-07-13 101005" src="https://github.com/user-attachments/assets/0b613943-36c9-4e4e-aa17-aff86cf45953" />
+
