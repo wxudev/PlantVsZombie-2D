@@ -1,15 +1,17 @@
 # 植物大战僵尸 2D
 
-> Unity 2D 塔防游戏，复刻《植物大战僵尸》核心玩法。
+> Unity 2D 塔防游戏，《植物大战僵尸》。
 
 ## 项目简介
 
 从零开发的 2D 塔防游戏，实现植物防守、僵尸进攻、阳光经济三大系统闭环，包含 4 个 UI 模块的完整交互。
 
 ## 游戏截图
-
-<!-- TODO: 补充游戏截图 -->
-<!-- ![战斗画面](screenshot.png) -->
+<img width="1220" height="772" alt="屏幕截图 2026-07-26 120314" src="https://github.com/user-attachments/assets/dfa86166-520d-4559-8e5b-d487d9a0c7c3" />
+<img width="1217" height="763" alt="屏幕截图 2026-07-26 120327" src="https://github.com/user-attachments/assets/045ad737-cbe1-4e0d-8c4c-86c0b2ff5292" />
+<img width="1210" height="760" alt="屏幕截图 2026-07-26 120343" src="https://github.com/user-attachments/assets/a78ae9db-64cf-4180-8828-51fe23c1405e" />
+<img width="1213" height="769" alt="屏幕截图 2026-07-26 120356" src="https://github.com/user-attachments/assets/aff32dad-ad9a-467c-9509-d047de8b6c33" />
+<img width="817" height="521" alt="屏幕截图 2026-07-26 111111" src="https://github.com/user-attachments/assets/7567dc54-65d9-4109-89e5-7ab423ea55fc" />
 
 ## 玩法说明
 
@@ -171,7 +173,7 @@ Instantiate: 773 次
 
 ### 分路射击
 
-豌豆射手每帧检测同 Y 轴僵尸（容差 < 0.5），仅对应行有敌人且僵尸在右侧时才发射，CD 2 秒。
+豌豆射手每帧检测同 Y 轴僵尸（容差 < 0.25），仅对应行有敌人且僵尸在右侧时才发射，CD 2 秒。
 
 ### UGUI 多层级框架
 
@@ -211,6 +213,4 @@ CD（冷却中）→ 计时结束 → NoSun（阳光不足）→ 阳光够 → R
 | 收集阳光 | 点击掉落的阳光 |
 | 暂停 | 点击右上角暂停按钮 / 按 ESC |
 
-## License
 
-MIT
