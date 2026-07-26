@@ -34,7 +34,7 @@ Assets/
 ├── *.cs                  # 游戏脚本
 │   ├── Zombie.cs         # 僵尸行为
 │   ├── plant_1.cs        # 豌豆射手
-│   ├── plant_0.cs      # 向日葵
+│   ├── plant_0.cs        # 向日葵
 │   ├── Bullet.cs         # 子弹
 │   ├── ZombieSpawner.cs  # 僵尸生成器
 │   ├── GameManager.cs    # 游戏流程管理
