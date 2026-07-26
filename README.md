@@ -34,7 +34,7 @@ Assets/
 ├── *.cs                  # 游戏脚本
 │   ├── Zombie.cs         # 僵尸行为
 │   ├── plant_1.cs        # 豌豆射手
-│   ├── Sunflower.cs      # 向日葵
+│   ├── plant_0.cs      # 向日葵
 │   ├── Bullet.cs         # 子弹
 │   ├── ZombieSpawner.cs  # 僵尸生成器
 │   ├── GameManager.cs    # 游戏流程管理
@@ -130,17 +130,30 @@ collision.gameObject.SetActive(false);
 
 正常游玩一局的 Console 输出：
 
+<img width="994" height="326" alt="屏幕截图 2026-07-26 111106" src="https://github.com/user-attachments/assets/375b0144-0778-4e8a-a900-28b406adfc1f" />
+
 ```
-子弹总数: 59
-对象池复用: 52 次
-Instantiate: 7 次
-复用率: 88.1%
+子弹总数: 51
+对象池复用: 43 次
+Instantiate: 8 次
+复用率: 84.3%
 ```
+
+极端情况游玩一局的 Console 输出：
+<img width="991" height="328" alt="屏幕截图 2026-07-26 110901" src="https://github.com/user-attachments/assets/82e8c14f-4136-4b6f-82d1-2cc7c4ce432b" />
+
+```
+子弹总数: 4322
+对象池复用: 3549 次
+Instantiate: 773 次
+复用率: 82.1%
+```
+
 
 **效果**
 
-- Instantiate 调用从数十次降至个位数
-- 对象池复用率 85% 以上
+- Instantiate 调用次数显著降低
+- 对象池复用率 806% 以上
 - 频繁 GC 导致的卡顿消除
 - 复用逻辑对游戏表现完全透明，不影响玩法
 
