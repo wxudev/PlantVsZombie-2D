@@ -214,4 +214,4 @@ CD（冷却中）→ 计时结束 → NoSun（阳光不足）→ 阳光够 → R
 <img width="817" height="521" alt="屏幕截图 2026-07-26 111111" src="https://github.com/user-attachments/assets/7567dc54-65d9-4109-89e5-7ab423ea55fc" />
 
 ## 运行视频
-
+【植物大战僵尸】https://www.bilibili.com/video/BV1RL3e6JEmP?vd_source=1edea17dae3abc0d0e87752abb5951d1
